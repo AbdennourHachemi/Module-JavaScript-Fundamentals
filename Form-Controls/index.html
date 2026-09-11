@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My form exercise</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Order form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -14,111 +14,93 @@
     </header>
     <main>
       <form>
-        <!-- write your html here-->
-         <label for="fname">Please Enter your First name:</label><br>
-         <input type="txt" id="fname" name="fname"> <br>
-         <label for="lname">Please Enter your Last name:</label><br>
-         <input type="txt" id="lname" name="lname"> <br>
-         <label for="email">Please Enter your Email:</label><br>
-         <input type="email" id="email" name="email" /><br>
-         <label for="color">Please pick a color:</label> <br>
+       <div id="fn"><label for="fname">Please Enter your First name:</label>
+         <input type="text" id="fname" name="fname"  pattern=".*\S.*\S.*"> <br></div>
+         <div id="sn"><label for="lname">Please Enter your Last name:</label>
+         <input type="text" id="lname" name="lname"  pattern=".*\S.*\S.*"> <br></div>
+         <div id="em"><label for="email">Please Enter your Email:</label>
+         <input type="email" id="email" name="email" required><br>
+         </div>
+         
 
 
          <div class="colorSelection">
+          <label>Please pick a color:</label> <br>
 
   <div class="colorOption">
-    <label for="blueOption">Blue</label>
+    <label>Blue</label>
     <div class="square" id="blueOption">
       <input type="radio" name="color" value="blue">
     </div>
   </div>
 
   <div class="colorOption">
-    <label for="greenOption">Green</label>
+    <label>Green</label>
     <div class="square" id="greenOption">
       <input type="radio" name="color" value="green">
     </div>
   </div>
 
   <div class="colorOption">
-    <label for="redOption">Red</label>
+    <label>Red</label>
     <div class="square" id="redOption">
-      <input type="radio" name="color" value="red">
+      <input type="radio" name="color" value="red" required>
     </div>
   </div>
 
 </div>
-<div>
-   <label for="color">Please select the t-shirt size:</label> <br>
+<div id ="sizediv">
+   <label>Please select the t-shirt size:</label> <br>
   <div class="colorSelection">
 
   <div class="sizeOption">
-    <label for="sizOption">XS</label>
+    <label>XS</label>
     <div >
-      <input type="radio"  value="xs">
+      <input type="radio" name="size" value="xs">
     </div>
   </div>
 
   <div class="sizeOption">
-    <label for="sizOption">S</label>
-    <div  >
-      <input type="radio"  value="s">
+    <label>S</label>
+    <div>
+      <input type="radio" name="size" value="s">
     </div>
   </div>
   <div class="sizeOption">
-    <label for="sizOption">M</label>
-    <div  >
-      <input type="radio"  value="m">
+    <label>M</label>
+    <div>
+      <input type="radio" name="size" value="m">
     </div>
   </div>
   <div class="sizeOption">
-    <label for="sizOption">L</label>
+    <label>L</label>
     <div  >
-      <input type="radio"  value="l">
+      <input type="radio" name="size" value="l">
     </div>
   </div>
   <div class="sizeOption">
-    <label for="sizOption">XL</label>
-    <div  >
-      <input type="radio"  value="xl">
+    <label>XL</label>
+    <div>
+      <input type="radio" name="size" value="xl">
     </div>
   </div>
   <div class="sizeOption">
-    <label for="sizOption">XXL</label>
+    <label>XXL</label>
     <div  >
-      <input type="radio"  value="xxl">
+      <input type="radio" name="size" value="xxl">
     </div>
+  </div>
   </div>
 
 
 </div>
 
          
-          <!-- <div class="colorSelection"> 
-            <div><label for="Blue">Blue</label> 
-            <div class="square" id="blueOption"><input type="radio"  value="blue" ></dev>
-            <div><label for="green">Green</label> </div>
-            <div class="square" id="greenOption"><input type="radio" name="aligned" value="white"> </div>
-        </div>
-              <div><label fo="red">Red</label>
-              <div class="square" id="redOption"><input type="radio" name="aligned" value="right"></div>
-         </div>
-             
-         
-          </div>  -->
-        <!-- 
-
-        1. What is the customer's name? I must collect this data and ensure it contains at least two non-space characters.
-        2. What is the customer's email? I must make sure the email is valid. Email addresses follow a consistent pattern.
-        3. What colour should this T-shirt be? I must provide 3 options. How will I ensure they do not choose other colours?
-        4. What size does the customer want? I must provide the following 6 options: XS, S, M, L, XL, XXL
-        try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
       </form>
     </main>
     <footer>
-      <!-- change to your name-->
-      <!-- <p>By Abdennour  Hachemi</p> -->
+      
+      <p>By Abdennour  Hachemi</p> 
     </footer>
   </body>
 </html>
