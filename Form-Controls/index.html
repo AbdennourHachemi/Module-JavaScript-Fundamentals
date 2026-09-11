@@ -1,106 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My form exercise</title>
-    <meta name="description" content="Order form">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <h1>Product Pick</h1>
-    </header>
-    <main>
-      <form>
-       <div id="fn"><label for="fname">Please Enter your First name:</label>
-         <input type="text" id="fname" name="fname"  pattern=".*\S.*\S.*"> <br></div>
-         <div id="sn"><label for="lname">Please Enter your Last name:</label>
-         <input type="text" id="lname" name="lname"  pattern=".*\S.*\S.*"> <br></div>
-         <div id="em"><label for="email">Please Enter your Email:</label>
-         <input type="email" id="email" name="email" required><br>
-         </div>
-         
 
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>My form exercise</title>
+	<meta name="description" content="Order form">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+</head>
 
-         <div class="colorSelection">
-          <label>Please pick a color:</label> <br>
+<body>
+	<header>
+		<h1>Product Pick</h1>
+	</header>
+	<main>
+		<form>
+			<div id="fn"><label for="fname">Please Enter your First name:</label>
+				<input type="text" id="fname" name="fname" pattern=".*\S.*\S.*"> <br>
+			</div>
+			<div id="sn"><label for="lname">Please Enter your Last name:</label>
+				<input type="text" id="lname" name="lname" pattern=".*\S.*\S.*"> <br>
+			</div>
+			<div id="em"><label for="email">Please Enter your Email:</label>
+				<input type="email" id="email" name="email" required><br>
+			</div>
+			<div class="colorSelection">
+				<label>Please pick a color:</label> <br>
+				<div class="colorOption">
+					<label>Blue</label>
+					<div class="square" id="blueOption">
+						<input type="radio" name="color" value="blue">
+					</div>
+				</div>
+				<div class="colorOption">
+					<label>Green</label>
+					<div class="square" id="greenOption">
+						<input type="radio" name="color" value="green">
+					</div>
+				</div>
+				<div class="colorOption">
+					<label>Red</label>
+					<div class="square" id="redOption">
+						<input type="radio" name="color" value="red" required>
+					</div>
+				</div>
+			</div>
+			<div id="sizediv">
+				<label>Please select the t-shirt size:</label> <br>
+				<div class="colorSelection">
+					<div class="sizeOption">
+						<label>XS</label>
+						<div>
+							<input type="radio" name="size" value="xs">
+						</div>
+					</div>
+					<div class="sizeOption">
+						<label>S</label>
+						<div>
+							<input type="radio" name="size" value="s">
+						</div>
+					</div>
+					<div class="sizeOption">
+						<label>M</label>
+						<div>
+							<input type="radio" name="size" value="m">
+						</div>
+					</div>
+					<div class="sizeOption">
+						<label>L</label>
+						<div>
+							<input type="radio" name="size" value="l">
+						</div>
+					</div>
+					<div class="sizeOption">
+						<label>XL</label>
+						<div>
+							<input type="radio" name="size" value="xl">
+						</div>
+					</div>
+					<div class="sizeOption">
+						<label>XXL</label>
+						<div>
+							<input type="radio" name="size" value="xxl">
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</main>
 
-  <div class="colorOption">
-    <label>Blue</label>
-    <div class="square" id="blueOption">
-      <input type="radio" name="color" value="blue">
-    </div>
-  </div>
+	<footer>
+		<p>By Abdennour Hachemi</p>
+	</footer>
+</body>
 
-  <div class="colorOption">
-    <label>Green</label>
-    <div class="square" id="greenOption">
-      <input type="radio" name="color" value="green">
-    </div>
-  </div>
-
-  <div class="colorOption">
-    <label>Red</label>
-    <div class="square" id="redOption">
-      <input type="radio" name="color" value="red" required>
-    </div>
-  </div>
-
-</div>
-<div id ="sizediv">
-   <label>Please select the t-shirt size:</label> <br>
-  <div class="colorSelection">
-
-  <div class="sizeOption">
-    <label>XS</label>
-    <div >
-      <input type="radio" name="size" value="xs">
-    </div>
-  </div>
-
-  <div class="sizeOption">
-    <label>S</label>
-    <div>
-      <input type="radio" name="size" value="s">
-    </div>
-  </div>
-  <div class="sizeOption">
-    <label>M</label>
-    <div>
-      <input type="radio" name="size" value="m">
-    </div>
-  </div>
-  <div class="sizeOption">
-    <label>L</label>
-    <div  >
-      <input type="radio" name="size" value="l">
-    </div>
-  </div>
-  <div class="sizeOption">
-    <label>XL</label>
-    <div>
-      <input type="radio" name="size" value="xl">
-    </div>
-  </div>
-  <div class="sizeOption">
-    <label>XXL</label>
-    <div  >
-      <input type="radio" name="size" value="xxl">
-    </div>
-  </div>
-  </div>
-
-
-</div>
-
-         
-      </form>
-    </main>
-    <footer>
-      
-      <p>By Abdennour  Hachemi</p> 
-    </footer>
-  </body>
 </html>
