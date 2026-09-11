@@ -6,6 +6,7 @@
     <title>My form exercise</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
@@ -19,7 +20,92 @@
          <label for="lname">Please Enter your Last name:</label><br>
          <input type="txt" id="lname" name="lname"> <br>
          <label for="email">Please Enter your Email:</label><br>
-         <input type="txt" id="email" name="email"> <br>
+         <input type="email" id="email" name="email" /><br>
+         <label for="color">Please pick a color:</label> <br>
+
+
+         <div class="colorSelection">
+
+  <div class="colorOption">
+    <label for="blueOption">Blue</label>
+    <div class="square" id="blueOption">
+      <input type="radio" name="color" value="blue">
+    </div>
+  </div>
+
+  <div class="colorOption">
+    <label for="greenOption">Green</label>
+    <div class="square" id="greenOption">
+      <input type="radio" name="color" value="green">
+    </div>
+  </div>
+
+  <div class="colorOption">
+    <label for="redOption">Red</label>
+    <div class="square" id="redOption">
+      <input type="radio" name="color" value="red">
+    </div>
+  </div>
+
+</div>
+<div>
+   <label for="color">Please select the t-shirt size:</label> <br>
+  <div class="colorSelection">
+
+  <div class="sizeOption">
+    <label for="sizOption">XS</label>
+    <div >
+      <input type="radio"  value="xs">
+    </div>
+  </div>
+
+  <div class="sizeOption">
+    <label for="sizOption">S</label>
+    <div  >
+      <input type="radio"  value="s">
+    </div>
+  </div>
+  <div class="sizeOption">
+    <label for="sizOption">M</label>
+    <div  >
+      <input type="radio"  value="m">
+    </div>
+  </div>
+  <div class="sizeOption">
+    <label for="sizOption">L</label>
+    <div  >
+      <input type="radio"  value="l">
+    </div>
+  </div>
+  <div class="sizeOption">
+    <label for="sizOption">XL</label>
+    <div  >
+      <input type="radio"  value="xl">
+    </div>
+  </div>
+  <div class="sizeOption">
+    <label for="sizOption">XXL</label>
+    <div  >
+      <input type="radio"  value="xxl">
+    </div>
+  </div>
+
+
+</div>
+
+         
+          <!-- <div class="colorSelection"> 
+            <div><label for="Blue">Blue</label> 
+            <div class="square" id="blueOption"><input type="radio"  value="blue" ></dev>
+            <div><label for="green">Green</label> </div>
+            <div class="square" id="greenOption"><input type="radio" name="aligned" value="white"> </div>
+        </div>
+              <div><label fo="red">Red</label>
+              <div class="square" id="redOption"><input type="radio" name="aligned" value="right"></div>
+         </div>
+             
+         
+          </div>  -->
         <!-- 
 
         1. What is the customer's name? I must collect this data and ensure it contains at least two non-space characters.
@@ -32,7 +118,7 @@
     </main>
     <footer>
       <!-- change to your name-->
-      <p>By HOMEWORK SOLUTION</p>
+      <!-- <p>By Abdennour  Hachemi</p> -->
     </footer>
   </body>
 </html>
