@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>My form exercise</title>
     <meta name="description" content="Order form" />
@@ -31,20 +31,24 @@
           <label for="email">Please Enter your Email:</label>
           <input type="email" id="email" required /><br />
         </div>
+
+        
         <div class="colorSelection">
-          <label for="colorOption">Please pick a color:</label> <br />
+          <p id="colors">Please pick a color:</p> <br />
           <div class="colorOption">
             <label for="blueOption">Blue</label>
-            <div class="square" id="blueOptions">
+            <div class="square"  id="blueOptions">
               <input type="radio" name="color" id="blueOption" value="blue" />
             </div>
           </div>
+          
           <div class="colorOption">
             <label for="greenOption">Green</label>
             <div class="square" id="greenOptions">
               <input type="radio" name="color" id="greenOption" value="green" />
             </div>
           </div>
+          
           <div class="colorOption">
             <label for="redOption">Red</label>
             <div class="square" id="redOptions">
@@ -57,9 +61,13 @@
               />
             </div>
           </div>
+        
+        
+        
+        
         </div>
         <div id="sizediv">
-          <label for="sizeOption">Please select the t-shirt size:</label> <br />
+          <p id="sizeOption">Please select the t-shirt size:</p> <br />
           <div class="colorSelection">
             <div class="sizeOption">
               <label for="xs">XS</label>
@@ -110,7 +118,7 @@
     </main>
 
     <footer>
-      <h5>By Abdennour Hachemi</h5>
+      <p>By Abdennour Hachemi</p>
     </footer>
   </body>
 </html>
