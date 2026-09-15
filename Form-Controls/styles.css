@@ -38,8 +38,29 @@
   margin: 20px 20px;
 }
 
-form,
-h1,
-h5 {
+form
+
+ {
+  padding-top: 2%;
+  margin-right: 50%;
   margin-left: 25%;
+  background-color: bisque;
+}
+
+h1,h5{
+  margin-left: 30%;
+}
+
+button[type="submit"],
+input[type="submit"] {
+  padding: 10px 20px;
+  margin-left: 35%;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #fff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
 }
