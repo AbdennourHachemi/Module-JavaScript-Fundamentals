@@ -1,4 +1,4 @@
-const minimum = 1;
+const minimum = 10;
 const maximum = 100;
 
 const num = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
@@ -19,17 +19,17 @@ console.log(test)
 //Second operation
 //The generated number is multiplied by 100 being (maximum =100 -1 +1)
 
- test =Math.random() *(maximum - minimum +1);
+ test =test *(maximum - minimum +1);
  console.log(test)
 
  //Third operation 
  //num is rounded down to the nearset whole number using the method Math.floor
 
-  test = Math.floor(Math.random() * (maximum - minimum + 1)) 
-  console.log(test)
+  test = test+ minimum;
+  console.log("test+ minimum" , test)
 
   // Last operation is to add 1 to num 1 is stored in a variable called minimum
 
-  test =Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+  test =Math.floor(test)
  console.log(test)
- console.log(num)
+ //console.log(num)
