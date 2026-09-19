@@ -16,7 +16,9 @@ console.log(`The percentage change is ${percentageChange}`);
 
 /*
 Solution to a)
--------------|-----------------| --------
+
+There are 5 function calls in this file:
+-------------|-----------------| --------|
         1    |  Number()       | line 4  |
         2    | replaceAll()    | line 4  |
         3    |  Number()       | line 5  |
