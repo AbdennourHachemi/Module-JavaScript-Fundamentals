@@ -1,4 +1,4 @@
-const movieLength = 8784; // length of movie in seconds
+const movieLength = 90000; // length of movie in seconds
 
 const remainingSeconds = movieLength % 60;
 const totalMinutes = (movieLength - remainingSeconds) / 60;
@@ -60,8 +60,13 @@ console.log(result);
      /*  movieLength = 0    => exactMovieLength = 0:0:0                                                                                                        */                                                                                                      
      /*  movieLength = 60   => exactMovieLength = 0:1:0                                                                                                        */             
      /*  movieLength  = 3676 => exactMovieLength = 1:1:16                                                                                                      */
+     /*  movieLength  = -3600 => exactMoveLenght = -1:0:0                                                                                                      */
+     /*  movieLength  = 90000 => exactMoveLenght = 25:0:0                                                                                                      */
      /*                                                                                                                                                        */
-     /*  This code work for all values of movieLength provided that it doesn't exeed 86400 which is 24 hours = 1 day (realisticly no movie is over 24 hours)   */
+     /*  This code work Could be better:                                                                                                                       */
+     /*  - giving a negative value for  movieLength will result in a negative clock: so there could have message that reject negative numbers.                 */
+     /*  - The program should have represented Hours/Min/Sec in this format 00:00:00 so each time should be represented with 2 digits.                         */
+     /*  - 25 hours exeeds 24 hours which represents a day so a variable total days could be added to represent time in days.                                  */
      /*                                                                                                                                                        */
      /**********************************************************************************************************************************************************/
 
