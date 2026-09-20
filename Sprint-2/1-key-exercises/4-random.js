@@ -1,4 +1,4 @@
-const minimum = 10;
+const minimum = 1;
 const maximum = 100;
 
 const num = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
@@ -8,28 +8,23 @@ const num = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 // It will help to think about the order in which expressions are evaluated
 // Try logging the value of num and running the program several times to build an idea of what the program is doing
 
-//console.log(num);
+console.log(num);
 
 //First operation 
-// num is generating  a random floating number with method Math.random() between 0 and 1
+// num is generating  a random dicimal number with method Math.random() between 0 and 1 result eg :0.3948605
 
-let test = Math.random()
-console.log(test)
+
 
 //Second operation
-//The generated number is multiplied by 100 being (maximum =100 -1 +1)
+//The generated number is multiplied by the range+1  which is between 1-100 result eg 39.48605
 
- test =test *(maximum - minimum +1);
- console.log(test)
 
  //Third operation 
- //num is rounded down to the nearset whole number using the method Math.floor
+ //num is rounded down to the nearset whole number using the method Math.floor restult eg 39.48605 => 39
 
-  test = test+ minimum;
-  console.log("test+ minimum" , test)
 
-  // Last operation is to add 1 to num 1 is stored in a variable called minimum
 
-  test =Math.floor(test)
- console.log(test)
- //console.log(num)
+  // Last operation is to add 1 to hit the maximum value (since Math.random() never quite reaches 1). This ensures all 100 numbers (1 through 100) are equally reachable.eg 39 => 40
+
+  
+  
