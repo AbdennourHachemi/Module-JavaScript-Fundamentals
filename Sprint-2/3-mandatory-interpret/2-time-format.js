@@ -1,4 +1,4 @@
-const movieLength = 90000; // length of movie in seconds
+const movieLength = 90.5; // length of movie in seconds
 
 const remainingSeconds = movieLength % 60;
 const totalMinutes = (movieLength - remainingSeconds) / 60;
@@ -63,10 +63,11 @@ console.log(result);
      /*  movieLength  = -3600 => exactMoveLenght = -1:0:0                                                                                                      */
      /*  movieLength  = 90000 => exactMoveLenght = 25:0:0                                                                                                      */
      /*                                                                                                                                                        */
-     /*  This code work Could be better:                                                                                                                       */
+     /*  This code Could be better:                                                                                                                            */
      /*  - giving a negative value for  movieLength will result in a negative clock: so there could have message that reject negative numbers.                 */
      /*  - The program should have represented Hours/Min/Sec in this format 00:00:00 so each time should be represented with 2 digits.                         */
      /*  - 25 hours exeeds 24 hours which represents a day so a variable total days could be added to represent time in days.                                  */
+     /*  -Values with dicimal numbers will return the clock showing dicimal numbers this should be rounded up or down to the nearst time with an integer number */
      /*                                                                                                                                                        */
      /**********************************************************************************************************************************************************/
 
