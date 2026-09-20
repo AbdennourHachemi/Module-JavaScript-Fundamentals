@@ -24,7 +24,6 @@ console.log(num);
 
 
 
-  // Last operation is to add 1 to hit the maximum value (since Math.random() never quite reaches 1). This ensures all 100 numbers (1 through 100) are equally reachable.eg 39 => 40
-
+  // Last operation is to add 1 to the generated rounded figure this can be any number from 0 to 99 since the rounding is using Math.Floor and not Math.Ceil we could get a (0) => adding 1 will insure the range is between 1 and 100 i.e minimuam and maximum
   
   
