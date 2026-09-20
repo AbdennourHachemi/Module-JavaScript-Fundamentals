@@ -24,6 +24,4 @@ console.log(num);
 
 
 
-  // Last operation is to add 1 to the generated rounded figure this can be any number from 0 to 99 since the rounding is using Math.Floor and not Math.Ceil we could get a (0) => adding 1 will insure the range is between 1 and 100 i.e minimuam and maximum
-  
-  
+  // Last operation is to add the + minimum (in this case it's 1 or it can be changed to any changed number e.g 10) this will shift the random number so it starts counting from minimum, instead of from zero.
