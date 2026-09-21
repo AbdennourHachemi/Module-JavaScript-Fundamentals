@@ -25,3 +25,4 @@ console.log(num);
 
 
   // Last operation is to add the  "minimum" (in this case it's 1 or it can be changed to any changed number e.g 10) this will shift the random number so it starts counting from minimum, instead of from zero.
+  //eg . num was 39 => 40
