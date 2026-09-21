@@ -10,19 +10,14 @@ const num = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 
 console.log(num);
 
-//First operation 
+//First operation
 // num is generating  a random dicimal number with method Math.random() between 0 and 1 result eg :0.3948605
-
-
 
 //Second operation
 //The generated number is multiplied by the range+1  which is between 1-100 result eg 39.48605
 
+//Third operation
+//num is rounded down to the nearset whole number using the method Math.floor restult eg 39.48605 => 39
 
- //Third operation 
- //num is rounded down to the nearset whole number using the method Math.floor restult eg 39.48605 => 39
-
-
-
-  // Last operation is to add the  "minimum" (in this case it's 1 or it can be changed to any changed number e.g 10) this will shift the random number so it starts counting from minimum, instead of from zero.
-  //eg . num was 39 => 40
+// Last operation is to add the  "minimum" (in this case it's 1 or it can be changed to any changed number e.g 10) this will shift the random number so it starts counting from minimum, instead of from zero.
+//eg . num was 39 => 40

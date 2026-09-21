@@ -2,9 +2,8 @@
 // what's the error ?
 
 //Answer : the error was that CitOfBirth vaiable was declared after the method cosole .log()
- //The solution is to declare it before calling it.
+//The solution is to declare it before calling it.
 
 const cityOfBirth = "Bolton";
 
 console.log(`I was born in ${cityOfBirth}`);
-

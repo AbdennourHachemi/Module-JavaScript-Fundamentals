@@ -13,7 +13,6 @@ console.log(`The percentage change is ${percentageChange}`);
 
 // a) How many function calls are there in this file? Write down all the lines where a function call is made
 
-
 /*
 Solution to a)
 
@@ -28,7 +27,6 @@ There are 5 function calls in this file:
 
 
 */
-
 
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
 /*
@@ -64,4 +62,3 @@ The expresssion Number(carPrice.replaceAll(",","")) is removing the comma "," in
 in String type , removing the comma will insure the mathimatical operation will go normal when converted to type Number.
 
 */
-
