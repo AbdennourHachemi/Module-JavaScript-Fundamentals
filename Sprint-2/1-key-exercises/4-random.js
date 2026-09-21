@@ -20,4 +20,7 @@ console.log(num);
 //num is rounded down to the nearset whole number using the method Math.floor restult eg 39.48605 => 39
 
 // Last operation is to add the  "minimum" (in this case it's 1 or it can be changed to any changed number e.g 10) this will shift the random number so it starts counting from minimum, instead of from zero.
-//eg . num was 39 => 40
+//   eg . num was 39 => 40
+//num is a random whole number from 1 to 100.
+
+  
