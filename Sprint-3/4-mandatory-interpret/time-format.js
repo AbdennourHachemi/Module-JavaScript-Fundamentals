@@ -3,7 +3,6 @@ function pad(num) {
   while (numString.length < 2) {
     numString = "0" + numString;
   }
-  console.log(numString);
   return numString;
 }
 
