@@ -28,7 +28,7 @@ console.log(formatTimeDisplay(61));
 // Call formatTimeDisplay with an input of 61, now answer the following:
 
 // b) What is the value assigned to num when pad is called for the first time?:
-// =============> write your answer here: ***Answer*** : The value assigned to num =61.
+// =============> write your answer here: ***Answer*** : The value assigned to num =00.
 
 // c) What is the return value of pad when it is called for the first time?
 // =============> write your answer here:  ***Answer*** :The value of pad  when it is called for the first time is "00".
