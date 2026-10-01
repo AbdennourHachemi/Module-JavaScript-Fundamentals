@@ -1,4 +1,5 @@
 function pad(num) {
+  console.log(num)
   let numString = num.toString();
   while (numString.length < 2) {
     numString = "0" + numString;
@@ -28,7 +29,7 @@ console.log(formatTimeDisplay(61));
 // Call formatTimeDisplay with an input of 61, now answer the following:
 
 // b) What is the value assigned to num when pad is called for the first time?:
-// =============> write your answer here: ***Answer*** : The value assigned to num =00.
+// =============> write your answer here: ***Answer*** : The value assigned to num = 0.
 
 // c) What is the return value of pad when it is called for the first time?
 // =============> write your answer here:  ***Answer*** :The value of pad  when it is called for the first time is "00".
