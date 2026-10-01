@@ -3,7 +3,7 @@
 // Predict the output of the following code:
 // =============> Write your prediction here: This code will throw an error because the function getLastDigit does not take any parameters but we are passing a parameter to it in the console.log statements.
 
-const num = 103;
+//const num = 103;
 
 // function getLastDigit() {
 //   return num.toString().slice(-1);
